@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://rhea-19.github.io/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/rhea-sudheer/">LinkedIn</a>
+  <a href="https://rhea-19.github.io/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/rhea-sudheer/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -35,16 +35,16 @@
 | --- | --- | --- |
 | **[CredentialGate](https://github.com/rhea-19/credentialgate)** | Trust boundaries for AI-facing applications: MCP tools, signed report/provider associations, scoped authorization, independent verification, and auditable fail-closed access | Python, FastAPI, MCP, Ed25519, SQLite, Docker |
 | **[Report Genie](https://github.com/rhea-19/Report-Genie)** | Healthcare document intelligence for extracting structured information from medical PDFs, retrieving supporting context, and generating grounded explanations and Q&A | Python, Flask, Gemini, FAISS, Sentence Transformers |
-| **[Hybrid Self-RAG](https://github.com/rhea-19/Hybrid-Self-RAG)** | Retrieval-augmented generation with external evidence validation and self-reflection to reduce unsupported claims | Python, RAG, FAISS, LLMs |
-| **[E-commerce Microservices](https://github.com/rhea-19/E-commerce-microservices-application)** | Service decomposition, API-driven communication, and distributed backend architecture | Microservices, REST APIs, Docker |
+| **[Hybrid Self-RAG](https://github.com/rhea-19/Hybrid-Self-RAG)** | Retrieval-augmented generation with external evidence validation and self-reflection to reduce unsupported claims | Python, RAG, vLLM, Wikipedia, Wikidata, arXiv |
+| **[E-commerce Microservices](https://github.com/rhea-19/E-commerce-microservices-application)** | Service decomposition, API-driven communication, containerization, and distributed backend architecture | React, Node.js, MongoDB, Docker, Kubernetes, Jenkins |
 | **[Custom x86 OS](https://github.com/rhea-19/Custom-x86-OS)** | Operating-system internals, low-level systems programming, and x86 development | C, Assembly, x86 |
 
-## Engineering themes I'm exploring
+## Engineering focus
 
 - **Reliable AI systems** — grounding model outputs in external evidence instead of treating generation as the source of truth.
 - **Agent/tool boundaries** — giving AI applications narrow, explicit capabilities through interfaces such as MCP while keeping authorization in backend services.
 - **Data-intensive backend systems** — turning inconsistent or high-volume data into validated, queryable state that downstream software can safely use.
-- **Systems thinking** — understanding how application behavior changes when you move from a local demo to production constraints, failure modes, and real users.
+- **Systems thinking** — designing around production constraints, failure modes, and real users rather than only happy-path demos.
 
 ## Toolbox
 
